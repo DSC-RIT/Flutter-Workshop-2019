@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
           Text(
             'Raghav Maheshwari',
             style: TextStyle(
-              color: Colors.amberAccent[200],
+              color: Colors.amberAccent[100],
               letterSpacing: 2.0,
               fontSize: 28.0,
               fontWeight: FontWeight.bold
@@ -64,7 +64,7 @@ class Home extends StatelessWidget {
           Row(
             children: <Widget>[
               Icon(
-                Icons.email,
+                Icons.alternate_email,
                 color: Colors.grey[400],
               ),
               SizedBox(width: 10.0,),
